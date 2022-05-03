@@ -1,0 +1,312 @@
+{
+  "name": "excelin",
+  "url": "https://github.com/mashingan/excelin",
+  "method": "git",
+  "tags": [
+    {
+      "name": "excelin",
+      "version": "0.1.0",
+      "author": "Rahmatullah",
+      "desc": "Create and read Excel purely in Nim",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.0"
+          }
+        },
+        {
+          "name": "zippy",
+          "str": ">= 0.9.7",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.9.7"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.1.0"
+    },
+    {
+      "name": "excelin",
+      "version": "0.1.0",
+      "author": "Rahmatullah",
+      "desc": "Create and read Excel purely in Nim",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.0"
+          }
+        },
+        {
+          "name": "zippy",
+          "str": ">= 0.9.7",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.9.7"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.2.0"
+    },
+    {
+      "name": "excelin",
+      "version": "0.1.0",
+      "author": "Rahmatullah",
+      "desc": "Create and read Excel purely in Nim",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.0"
+          }
+        },
+        {
+          "name": "zippy",
+          "str": ">= 0.9.7",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.9.7"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.2.1"
+    },
+    {
+      "name": "excelin",
+      "version": "0.1.0",
+      "author": "Rahmatullah",
+      "desc": "Create and read Excel purely in Nim",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.0"
+          }
+        },
+        {
+          "name": "zippy",
+          "str": ">= 0.9.7",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.9.7"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.2.2"
+    },
+    {
+      "name": "excelin",
+      "version": "0.3.0",
+      "author": "Rahmatullah",
+      "desc": "Create and read Excel purely in Nim",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.0"
+          }
+        },
+        {
+          "name": "zippy",
+          "str": ">= 0.9.7",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.9.7"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.3.0"
+    },
+    {
+      "name": "excelin",
+      "version": "0.3.1",
+      "author": "Rahmatullah",
+      "desc": "Create and read Excel purely in Nim",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.0"
+          }
+        },
+        {
+          "name": "zippy",
+          "str": ">= 0.9.7",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.9.7"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.3.1"
+    },
+    {
+      "name": "excelin",
+      "version": "0.3.2",
+      "author": "Rahmatullah",
+      "desc": "Create and read Excel purely in Nim",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.0"
+          }
+        },
+        {
+          "name": "zippy",
+          "str": ">= 0.9.7",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.9.7"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.3.2"
+    }
+  ],
+  "description": "Create and read Excel purely in Nim",
+  "license": "MIT",
+  "web": "https://github.com/mashingan/excelin",
+  "refs": [
+    "refs/heads/dev",
+    "refs/heads/master",
+    "refs/tags/v0.1.0",
+    "refs/tags/v0.2.0",
+    "refs/tags/v0.2.1",
+    "refs/tags/v0.2.2",
+    "refs/tags/v0.3.0",
+    "refs/tags/v0.3.1",
+    "refs/tags/v0.3.2",
+    ""
+  ],
+  "heads": [
+    {
+      "name": "excelin",
+      "version": "0.3.2",
+      "author": "Rahmatullah",
+      "desc": "Create and read Excel purely in Nim",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.0"
+          }
+        },
+        {
+          "name": "zippy",
+          "str": ">= 0.9.7",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.9.7"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
+}

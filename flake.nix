@@ -71,6 +71,38 @@
   inputs."excelin-v0_3_2".inputs.nixpkgs.follows = "nixpkgs";
   inputs."excelin-v0_3_2".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."excelin-v0_3_3".dir   = "v0_3_3";
+  inputs."excelin-v0_3_3".owner = "nim-nix-pkgs";
+  inputs."excelin-v0_3_3".ref   = "master";
+  inputs."excelin-v0_3_3".repo  = "excelin";
+  inputs."excelin-v0_3_3".type  = "github";
+  inputs."excelin-v0_3_3".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."excelin-v0_3_3".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."excelin-v0_3_4".dir   = "v0_3_4";
+  inputs."excelin-v0_3_4".owner = "nim-nix-pkgs";
+  inputs."excelin-v0_3_4".ref   = "master";
+  inputs."excelin-v0_3_4".repo  = "excelin";
+  inputs."excelin-v0_3_4".type  = "github";
+  inputs."excelin-v0_3_4".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."excelin-v0_3_4".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."excelin-v0_3_5".dir   = "v0_3_5";
+  inputs."excelin-v0_3_5".owner = "nim-nix-pkgs";
+  inputs."excelin-v0_3_5".ref   = "master";
+  inputs."excelin-v0_3_5".repo  = "excelin";
+  inputs."excelin-v0_3_5".type  = "github";
+  inputs."excelin-v0_3_5".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."excelin-v0_3_5".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."excelin-v0_3_6".dir   = "v0_3_6";
+  inputs."excelin-v0_3_6".owner = "nim-nix-pkgs";
+  inputs."excelin-v0_3_6".ref   = "master";
+  inputs."excelin-v0_3_6".repo  = "excelin";
+  inputs."excelin-v0_3_6".type  = "github";
+  inputs."excelin-v0_3_6".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."excelin-v0_3_6".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;

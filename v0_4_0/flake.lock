@@ -36,23 +36,23 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-excelin-v0_3_1": "src-excelin-v0_3_1",
+        "src-excelin-v0_4_0": "src-excelin-v0_4_0",
         "zippy": "zippy"
       }
     },
-    "src-excelin-v0_3_1": {
+    "src-excelin-v0_4_0": {
       "flake": false,
       "locked": {
-        "lastModified": 1651098482,
-        "narHash": "sha256-My4fN100kFOtum2YjMMskIKXk+PrVGkj51Wq/HtxZRA=",
+        "lastModified": 1651953423,
+        "narHash": "sha256-He+jbVGZR/bceJgfu0d39m5QyyEH4GTi62q1dsNcvVw=",
         "owner": "mashingan",
         "repo": "excelin",
-        "rev": "6713842ee1972dd33cc3fc01c81ce4f1ca1326ef",
+        "rev": "1bcf08d4233b4b4e89f0eab2b1b9d18222abc18b",
         "type": "github"
       },
       "original": {
         "owner": "mashingan",
-        "ref": "refs/tags/v0.3.1",
+        "ref": "refs/tags/v0.4.0",
         "repo": "excelin",
         "type": "github"
       }

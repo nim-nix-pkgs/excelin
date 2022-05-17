@@ -159,6 +159,22 @@
   inputs."excelin-v0_4_6".inputs.nixpkgs.follows = "nixpkgs";
   inputs."excelin-v0_4_6".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."excelin-v0_4_7".dir   = "v0_4_7";
+  inputs."excelin-v0_4_7".owner = "nim-nix-pkgs";
+  inputs."excelin-v0_4_7".ref   = "master";
+  inputs."excelin-v0_4_7".repo  = "excelin";
+  inputs."excelin-v0_4_7".type  = "github";
+  inputs."excelin-v0_4_7".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."excelin-v0_4_7".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."excelin-v0_4_8".dir   = "v0_4_8";
+  inputs."excelin-v0_4_8".owner = "nim-nix-pkgs";
+  inputs."excelin-v0_4_8".ref   = "master";
+  inputs."excelin-v0_4_8".repo  = "excelin";
+  inputs."excelin-v0_4_8".type  = "github";
+  inputs."excelin-v0_4_8".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."excelin-v0_4_8".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;

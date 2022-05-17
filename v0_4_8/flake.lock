@@ -36,11 +36,11 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-excelin-master": "src-excelin-master",
+        "src-excelin-v0_4_8": "src-excelin-v0_4_8",
         "zippy": "zippy"
       }
     },
-    "src-excelin-master": {
+    "src-excelin-v0_4_8": {
       "flake": false,
       "locked": {
         "lastModified": 1652560959,
@@ -52,7 +52,7 @@
       },
       "original": {
         "owner": "mashingan",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v0.4.8",
         "repo": "excelin",
         "type": "github"
       }

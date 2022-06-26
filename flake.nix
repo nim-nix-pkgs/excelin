@@ -119,6 +119,14 @@
   inputs."excelin-v0_4_1".inputs.nixpkgs.follows = "nixpkgs";
   inputs."excelin-v0_4_1".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."excelin-v0_4_10".dir   = "v0_4_10";
+  inputs."excelin-v0_4_10".owner = "nim-nix-pkgs";
+  inputs."excelin-v0_4_10".ref   = "master";
+  inputs."excelin-v0_4_10".repo  = "excelin";
+  inputs."excelin-v0_4_10".type  = "github";
+  inputs."excelin-v0_4_10".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."excelin-v0_4_10".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   inputs."excelin-v0_4_2".dir   = "v0_4_2";
   inputs."excelin-v0_4_2".owner = "nim-nix-pkgs";
   inputs."excelin-v0_4_2".ref   = "master";

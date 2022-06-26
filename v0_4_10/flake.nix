@@ -7,11 +7,11 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs.src-excelin-v0_4_3.flake = false;
-  inputs.src-excelin-v0_4_3.ref   = "refs/tags/v0.4.3";
-  inputs.src-excelin-v0_4_3.owner = "mashingan";
-  inputs.src-excelin-v0_4_3.repo  = "excelin";
-  inputs.src-excelin-v0_4_3.type  = "github";
+  inputs.src-excelin-v0_4_10.flake = false;
+  inputs.src-excelin-v0_4_10.ref   = "refs/tags/v0.4.10";
+  inputs.src-excelin-v0_4_10.owner = "mashingan";
+  inputs.src-excelin-v0_4_10.repo  = "excelin";
+  inputs.src-excelin-v0_4_10.type  = "github";
   
   inputs."zippy".owner = "nim-nix-pkgs";
   inputs."zippy".ref   = "master";
@@ -24,13 +24,13 @@
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
     lib  = flakeNimbleLib.lib;
-    args = ["self" "nixpkgs" "flakeNimbleLib" "src-excelin-v0_4_3"];
+    args = ["self" "nixpkgs" "flakeNimbleLib" "src-excelin-v0_4_10"];
     over = if builtins.pathExists ./override.nix 
            then { override = import ./override.nix; }
            else { };
   in lib.mkRefOutput (over // {
     inherit self nixpkgs ;
-    src  = deps."src-excelin-v0_4_3";
+    src  = deps."src-excelin-v0_4_10";
     deps = builtins.removeAttrs deps args;
     meta = builtins.fromJSON (builtins.readFile ./meta.json);
   } );

@@ -23,8 +23,9 @@
     },
     "nixpkgs": {
       "locked": {
-        "narHash": "sha256-7sWpWRO0IsBP5jm9qCrpuzDkWC7UAghiCmZZ+1uqHKo=",
-        "path": "/nix/store/q2jrkx5a3z6yxzbfai0kxpnqki80jm3l-source",
+        "lastModified": 0,
+        "narHash": "sha256-19Ib1b7Ny+yGhnxwnH1KhhB2hvALuNuqevA6XzqkQmo=",
+        "path": "/nix/store/5mdm97ryfgnsh02h7jiragdmcgh6vbvp-source",
         "type": "path"
       },
       "original": {
@@ -36,23 +37,23 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-excelin-v0_3_0": "src-excelin-v0_3_0",
+        "src-excelin-v0_5_0": "src-excelin-v0_5_0",
         "zippy": "zippy"
       }
     },
-    "src-excelin-v0_3_0": {
+    "src-excelin-v0_5_0": {
       "flake": false,
       "locked": {
-        "lastModified": 1650900952,
-        "narHash": "sha256-H0SM5cq4jXvmtu5/fPc6ZqfbaA8MF3ZckWVNzmtq2EA=",
+        "lastModified": 1661020659,
+        "narHash": "sha256-+FPYqZJOdlJEAPSwIHEp1MPqcz37jvl6f3wx6DdbYPU=",
         "owner": "mashingan",
         "repo": "excelin",
-        "rev": "4c53e1a93b1994c94e25443bb08f1a32c60b2115",
+        "rev": "93fc3a06fa7d2b5eb033a02dab1e645e3832dddc",
         "type": "github"
       },
       "original": {
         "owner": "mashingan",
-        "ref": "refs/tags/v0.3.0",
+        "ref": "refs/tags/v0.5.0",
         "repo": "excelin",
         "type": "github"
       }
